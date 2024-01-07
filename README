@@ -1,0 +1,37 @@
+# Demoblaze API Testing Project
+
+This project demonstrates API testing for the Demoblaze website's Login and Signup pages using the Page Object Model (POM) design pattern, Maven, TestNG, and RestAssured.
+
+## Project Structure
+
+The project structure is organized as follows:
+
+- `src/main/java`: Contains main source code.
+  - `pages`: Package for Page Object Model (POM) classes.
+    - `SignupPage.java`: Class for interacting with the Signup API.
+    - `LoginPage.java`: Class for interacting with the Login API.
+- `src/test/java`: Contains test code.
+  - `ApiTests.java`: TestNG test class for the Signup and Login API tests.
+
+- `pom.xml`: Maven project configuration file.
+- `test-output/`: Directory for storing test execution results.
+- `README.md`: Project documentation.
+
+## Dependencies
+
+- TestNG: Version 7.4.0
+- RestAssured: Version 4.4.0
+- ExtentReports: Version 4.1.6
+
+## How to Run the Tests
+
+1. Clone the repository: `git clone https://github.com/your-username/demoblaze-api-testing.git`
+2. Open the project in your preferred IDE.
+3. Configure the project to use the correct Java SDK.
+4. Run the `ApiTests` class as a TestNG test.
+
+## Test Reporting
+
+Test reports are generated using ExtentReports. Reports can be found in the `test-output` directory.
+
+Feel free to customize the project structure and update this README based on your specific needs.
